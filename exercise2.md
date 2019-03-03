@@ -25,7 +25,7 @@ The ancient siberian horses (`AncientRussia1,AncientRussia2`) are estimated to s
 Assuming that horse domestication took place only once, our initial hypothesis was that the 5,000 years old domesticated Botai horses were the ancestors of all present-day domesticated horses, or at least shared most recent common ancestry with this lineage. In todays exercise, we will investigate if this hypothesis holds by applying two commonly used methods to reconstruct the genetic relationship of the 20 genomes described above.
 
 ## Objective ##
-The objective of this exercise is to familiarize yourself with two methods, namely f3-outgroup and Treemix. Both these methods are based on genetic drift. Based on the results of these methods, we will investigate if the Botai horses were the ancestors of present domesticated horses.
+The objective of this exercise is to familiarize yourself with two methods, namely f3-outgroup and Treemix. Both these methods are based on genetic drift. Based on the results of these methods, we will investigate if the Botai horses were the ancestors of present-day domesticated horses.
 
 ## f3-outgroup ##
 The first method we will apply to the data is named f3-outgroup. This method uses an outgroup (Donkey) to recover the amount of shared genetic drift between two horses/populations. The statistic measures the branch length from the outgroup and split of the two populations. It is defined as the product of allele frequency differences between C-A and C-B [highlighted here in red](https://gaworkshop.readthedocs.io/en/latest/_images/f3-tree.png). 
