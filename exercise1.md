@@ -1,6 +1,12 @@
 # Exercise 1 #
 
-## Install driftr locally ##
+## genetic drift ##
+In this exercise, we will explore the effect of genetic drift on allele frequencies using simulations. The web-based software we will use is named `driftR`. It simulates change in allele frequencies for multiple popoulations using the island model (Wright 1931).
+
+## Objective ##
+The objective of this exercise is to familiarize yourself with genetic drift, and explore the effect of populations size on genetic drift.
+
+## Installing driftR locally ##
 
 Run the following command to download driftR to your local machine. 
 `git clone https://github.com/cjbattey/driftR.git`
@@ -22,23 +28,33 @@ This will open your favorite browser with driftR running locally.
 
 
 ### Alternative availability (on the student server) ###
-MISSING
+If it is not possible to install driftR locally, a version is made available on the server. It requires X11 forwarding when you access the student server. Open `R` and type the following:
 
-## driftR ##
-In this exercise, we will explore the effect of genetic drift on allele frequencies using simulations.
+```R
+	require(shiny)
+	pathTodriftR <- "MISSING"
+	runApp(appDir=pathTodriftR)
+	
+```
+
 ### Starting parameters ###
 This software has a series of parameters to tune. Set the following parameters:
-     - Starting allele frequency: 0.5
-     - Mutation rate: 0
-     - Fitness of genotype AA, AB, and BB: 1
-     - Migration rate: 0
-     - Number of populations: 10
-     - Number of generations: 100
+
+	- Starting allele frequency: 0.5
+	- Mutation rate: 0
+	- Fitness of genotype AA, AB, and BB: 1
+	- Migration rate: 0
+	- Number of populations: 10
+	- Number of generations: 100
 	 
-This way we reduce the possible mechanisms (selection, mutation, migration) that can impact allele frequency changes to solely genetic drift, and how this behaves with chaning population sizes.
+This way we reduce the mechanisms (e.g. selection, mutation, migration) that can impact allele frequency changes to solely genetic drift, and how this behaves with changing population sizes.
+
+When these parameters are all set press `Run Simulation` and answer the following questions.
 
  
 ## Questions ##
+Please address the following questions:
+
     - Press 'Run Simulation' and describe what you see. What is the on the axis and what does every line show?
     - What happens if we set the populations size to 1000
     - What happens if we set the populations size to 10000
