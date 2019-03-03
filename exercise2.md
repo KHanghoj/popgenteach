@@ -36,11 +36,15 @@ You will compute all pairwise permutations of the horses analyzed in this study 
 	2. What are the main groups of horses that share more within populations genetic drift
 	3. What Horses share the most drift with Botai horses?
 	4. Does these results indicate that Botai horses are the direct ancestors of the domesticated horses we know today?
-	   1. If not what does the results then indicate?
+	   1. If not, what does the results then indicate?
 
 
 ## Treemix ##
 
 In this exercise, every populations consists of a single individual.
 
+```bash
+	blabla
+```
 
+### Questions ###
