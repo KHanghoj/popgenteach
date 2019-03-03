@@ -11,7 +11,7 @@ In exercise 2 we will investigate if the botai horses are the ancestors of prese
 ## f3-outgroup ##
 The first method we will apply to the data is named f3-outgroup. This method uses an outgroup (Donkey) to recover the amount of shared genetic drift between two horses/populations. The statistic measures the branch length from the outgroup and split of the two populations. It is defined as the product of allele frequency differences between C-A and C-B.
 
-[![Foo](http://www.google.com.au/images/nav_logo7.png)](http://google.com.au/)
+[![f3-outgroup](https://gaworkshop.readthedocs.io/en/latest/_images/f3-tree.png)](f3-outgroup)
 
 
 You will compute all pairwise permutations of the horses analyzed in this study and plot it as a heatmap. The color brightness indicates the amount of shared genetic drfit between two horses. These results can give us the first indication whether the domesticated Botai horses were the direct ancestors of present-day domesticated horses
