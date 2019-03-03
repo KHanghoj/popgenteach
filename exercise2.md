@@ -22,7 +22,7 @@ For the first analysis, we will also use the `donkey` as an outgroup.
 
 The ancient siberian horses (`AncientRussia1,AncientRussia2`) are estimated to split of from the branch leading to Przewalski and present-day domesticated horses around 160,000 years ago. The Przewalski lineage and the lineage leading to the present-day domesticated horses split around 45,000 years ago.
 
-Assuming that horse domestication took place only once, our initial hypothesis was that the 5,000 years old domesticated Botai horses were the ancestors of all present-day domesticated horses. In todays exercise, we will investigate if this hypothesis holds by applying two commonly used methods to reconstruct the genetic relationship of the 20 genomes described above.
+Assuming that horse domestication took place only once, our initial hypothesis was that the 5,000 years old domesticated Botai horses were the ancestors of all present-day domesticated horses, or at least shared most recent common ancestry with this lineage. In todays exercise, we will investigate if this hypothesis holds by applying two commonly used methods to reconstruct the genetic relationship of the 20 genomes described above.
 
 ## Objective ##
 The objective of this exercise is to familiarize yourself with two methods, namely f3-outgroup and Treemix. Both these methods are based on genetic drift. Based on the results of these methods, we will investigate if the Botai horses were the ancestors of present domesticated horses.
