@@ -48,15 +48,17 @@ This software has a series of parameters to tune. Set the following parameters p
 	 
 This way we reduce the mechanisms (e.g. selection, mutation, migration) that can impact allele frequency changes to solely genetic drift, and how this behaves with changing population sizes.
 
-When these parameters are all set press `Run Simulation` and answer the following questions.
 
  
 ## Questions ##
-Please address the following questions:
+When these starting parameters are all set  answer the following questions.
 
-1. Press 'Run Simulation' and describe what you see. What is the on the axis and what does every line show?
-2. What happens if we set the populations size to 1000
-3. What happens if we set the populations size to 10000
+
+1. Press `Run Simulation` and describe what you see
+   1. What is the on the axis?
+   2. what does every line represent?
+2. How does this change if we set the populations size to 1000
+3. How does this change if we set the populations size to 10000
 4. Run 20 replicates of the last three runs (population size: 100, 1000, 10000)
    1. Does the mean allele frequency (p) change?
    2. Does the variance allele frequency (p) change?
