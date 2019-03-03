@@ -7,7 +7,7 @@ We will use 20 horse genomes for todays exercise:
 - Two ancient horses from Siberia, Russia. These horses represent an extinct horse lineage.
   - The 5,000 years old `AncientRussia1`
   - The 42,000 years old `AncientRussia2`
-- 7 Przewalski horses (prefix: `Prze`).
+- 7 Przewalski horses (prefix: `Prze`). The only extant wild horse lineage.
 - 4 ancient `Botai` horses (5,000 years old) 
 - 7 Present-day domesticated horses from the following breeds:
   - `Japanese`
