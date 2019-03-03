@@ -56,13 +56,13 @@ When these starting parameters are all set, answer the following questions.
 
 1. Press `Run Simulation` and describe what you see
    1. What is the on the axes?
-   2. what does every line represent?
-2. How does this change if we set the populations size to 1000
-3. How does this change if we set the populations size to 10000
+   2. What does every line represent?
+2. How does this change, if we set the populations size to 1000
+3. How does this change, if we set the populations size to 10000
 4. Run 20 replicates of the last three runs (population size: 100, 1000, 10000)
-   1. Does the mean allele frequency (p) change?
-   2. Does the variance allele frequency (p) change?
+   1. Does the mean of the allele frequency (p) change?
+   2. Does the variance of the allele frequency (p) change?
 5. Are these observations in line with your expectations?
-6. Would you expect to observe a similar behavior of the mean and variance of the allele frequency if we reduce the fitness of genotype AB and BB to 0.9? If not, what would change?
+6. Would you expect to observe a similar behavior of the mean and variance of the allele frequency, if we reduce the fitness of genotype AB and BB to 0.9? If not, what would change?
 7. What are the underlying mechanisms of these observations?
 
