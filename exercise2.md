@@ -7,22 +7,22 @@ We will use 20 horse genomes for todays exercise:
 - Two ancient horses from Siberia, Russia. These horses represent an extinct horse lineage.
   - The 5,000 years old `AncientRussia1`
   - The 42,000 years old `AncientRussia2`
-- 7 Przewalski horses (prefix: Prze).
-- 4 ancient Botai horses (5,000 years old) 
+- 7 Przewalski horses (prefix: `Prze`).
+- 4 ancient `Botai` horses (5,000 years old) 
 - 7 Present-day domesticated horses from the following breeds:
-  - Japanese
-  - Mongolian
-  - Yakutia
-  - Shetland
-  - Arabian
-  - Sorria
-  - Marwian
+  - `Japanese`
+  - `Mongolian`
+  - `Yakutia`
+  - `Shetland`
+  - `Arabian`
+  - `Sorria`
+  - `Marwian`
   
-For the first analysis, we will also use the donkey as an outgroup. 
+For the first analysis, we will also use the `donkey` as an outgroup. 
 
-The ancient siberian horses are estimated to split of from the branch leading to Przewalski and present-day domesticated horses around 160,000 years ago. The Przewalski lineage and the lineage leading to the present-day domesticated horses split around 45,000 years ago.
+The ancient siberian horses (`AncientRussia1,AncientRussia2`) are estimated to split of from the branch leading to Przewalski and present-day domesticated horses around 160,000 years ago. The Przewalski lineage and the lineage leading to the present-day domesticated horses split around 45,000 years ago.
 
-Assuming that horse domestication took place only once, our initial hypothesis was that the 5,000 years old domesticated Botai horses were the ancestors of all present-day domesticated horses. In todays exercise, we will investigate if this hypothesis holds by applying two commonly used methods to reconstruct the genetic relationship to the 20 genomes described above.
+Assuming that horse domestication took place only once, our initial hypothesis was that the 5,000 years old domesticated Botai horses were the ancestors of all present-day domesticated horses. In todays exercise, we will investigate if this hypothesis holds by applying two commonly used methods to reconstruct the genetic relationship of the 20 genomes described above.
 
 ## Objective ##
 The objective of this exercise is to familiarize yourself with two methods, namely f3-outgroup and Treemix. Both these methods are based on genetic drift. Based on the results of these methods, we will investigate if the Botai horses were the ancestors of present domesticated horses.
@@ -64,15 +64,15 @@ Every populations in this exercise consist of a single individual. Vertical line
 ```
 
 ### Questions ###
-	Based on the treemix plot saved in `results/treemix.pdf` answer the following questions.
+Based on the treemix plot saved in `results/treemix.pdf` answer the following questions.
 	
-1. Define the two main monophyletic groups in addition to the outgroup (`AncientRussia1,AncientRussia2`). 
+1. Define the two largest monophyletic groups, entailing all samples besides the outgroup (`AncientRussia1,AncientRussia2`). 
    1. What samples are present in each group?
-2. Is the placement of the Botai horses expected if they are the ancestors of the present day domesticated horses.
+2. Is the placement of the Botai horses expected if they are the ancestors of the present day domesticated horses. Elaborate your answer.
 3. What samples shares the most genetic drift the botai horses?
 4. Is there a difference between the length of the terminal branches in the two major monophyletic groups?
    1. If yes, explain how and why they differ?
 5. Based on this analysis and the f3-outgroup analyses, what group of horses are likely the descendants of Botai horses?
 
 ## Extra material ##
-These two analyses were a fundamental part of a paper published last year in `Science` [link](http://science.sciencemag.org/content/360/6384/111).
+These two analyses were a fundamental part of a paper published last year in [Science](http://science.sciencemag.org/content/360/6384/111).

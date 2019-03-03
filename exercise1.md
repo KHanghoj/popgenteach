@@ -9,9 +9,11 @@ The objective of this exercise is to familiarize yourself with genetic drift, an
 ## Installing driftR locally ##
 
 Run the following command to download driftR to your local machine:
-`git clone https://github.com/cjbattey/driftR.git`
+```bash 
+	git clone https://github.com/cjbattey/driftR.git
+```
 
-Open R and run the following code:
+Open `R` and run the following code:
 
 ```R
 	ipak <- function(pkg){new.pkg <- pkg[!(pkg %in% installed.packages()[, "Package"])]
@@ -24,15 +26,15 @@ Open R and run the following code:
 	runApp(appDir=pathTodriftR)
 ```
 
-This will open your favorite browser with driftR running locally. 
+This should open your favorite browser with driftR running locally. 
 
 
 ### Alternative availability (on the student server) ###
-If it is not possible to install driftR locally, a version is made available on the server. It requires X11 forwarding when you access the student server. Open `R` and type the following:
+If it is not possible to install driftR locally, a version is made available on the server. X11 forwarding is required, when you access the student server. Open `R` and type the following:
 
 ```R
 	require(shiny)
-	pathTodriftR <- "MISSING"
+	pathTodriftR <- "/path/to/driftR"
 	runApp(appDir=pathTodriftR)
 ```
 
@@ -46,16 +48,14 @@ This software has a series of parameters to tune. Set the following parameters p
 - Number of populations: 10
 - Number of generations: 100
 	 
-This way we reduce the mechanisms (e.g. selection, mutation, migration) that can impact allele frequency changes to solely genetic drift, and how this behaves with changing population sizes.
-
-
+This way we reduce the mechanisms (e.g. selection, mutation, migration) that can impact allele frequency changes to genetic drift, and how the latter behaves with different population sizes.
  
 ## Questions ##
-When these starting parameters are all set  answer the following questions.
+When these starting parameters are all set, answer the following questions.
 
 
 1. Press `Run Simulation` and describe what you see
-   1. What is the on the axis?
+   1. What is the on the axes?
    2. what does every line represent?
 2. How does this change if we set the populations size to 1000
 3. How does this change if we set the populations size to 10000
