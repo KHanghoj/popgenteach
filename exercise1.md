@@ -8,20 +8,20 @@ The objective of this exercise is to familiarize yourself with genetic drift, an
 
 ## Installing driftR locally ##
 
-Run the following command to download driftR to your local machine. 
+Run the following command to download driftR to your local machine:
 `git clone https://github.com/cjbattey/driftR.git`
 
 Open R and run the following code:
 
 ```R
-		ipak <- function(pkg){new.pkg <- pkg[!(pkg %in% installed.packages()[, "Package"])]
+	ipak <- function(pkg){new.pkg <- pkg[!(pkg %in% installed.packages()[, "Package"])]
 		if (length(new.pkg))
-		install.packages(new.pkg, dependencies = TRUE)
+			install.packages(new.pkg, dependencies = TRUE)
 		sapply(pkg, require, character.only = TRUE)
-		}
-		ipak(c("shiny", "viridis", "reshape", "ggplot2", "plyr", "magrittr"))
-		pathTodriftR <- "driftR"
-		runApp(appDir=pathTodriftR)
+	}
+	ipak(c("shiny", "viridis", "reshape", "ggplot2", "plyr", "magrittr"))
+	pathTodriftR <- "driftR"
+	runApp(appDir=pathTodriftR)
 ```
 
 This will open your favorite browser with driftR running locally. 
@@ -34,18 +34,17 @@ If it is not possible to install driftR locally, a version is made available on 
 	require(shiny)
 	pathTodriftR <- "MISSING"
 	runApp(appDir=pathTodriftR)
-	
 ```
 
 ### Starting parameters ###
-This software has a series of parameters to tune. Set the following parameters:
+This software has a series of parameters to tune. Set the following parameters prior to running driftR:
 
-	- Starting allele frequency: 0.5
-	- Mutation rate: 0
-	- Fitness of genotype AA, AB, and BB: 1
-	- Migration rate: 0
-	- Number of populations: 10
-	- Number of generations: 100
+- Starting allele frequency: 0.5
+- Mutation rate: 0
+- Fitness of genotype AA, AB, and BB: 1
+- Migration rate: 0
+- Number of populations: 10
+- Number of generations: 100
 	 
 This way we reduce the mechanisms (e.g. selection, mutation, migration) that can impact allele frequency changes to solely genetic drift, and how this behaves with changing population sizes.
 
@@ -55,13 +54,13 @@ When these parameters are all set press `Run Simulation` and answer the followin
 ## Questions ##
 Please address the following questions:
 
-    1. Press 'Run Simulation' and describe what you see. What is the on the axis and what does every line show?
-    2. What happens if we set the populations size to 1000
-    3. What happens if we set the populations size to 10000
-    4. Run 20 replicates of the last three runs (population size: 100, 1000, 10000)
-	   1. Does the mean allele frequency (p) change?
-	   2. Does the variance allele frequency (p) change?
-    5. Are these observations in line with your expectations?
-    6. Would you expect to observe a similar behavior of the mean and variance of the allele frequency if we reduce the fitness of genotype AB and BB to 0.9? If not, what would change?
-    7. What are the underlying mechanisms of these observations?
+1. Press 'Run Simulation' and describe what you see. What is the on the axis and what does every line show?
+2. What happens if we set the populations size to 1000
+3. What happens if we set the populations size to 10000
+4. Run 20 replicates of the last three runs (population size: 100, 1000, 10000)
+   1. Does the mean allele frequency (p) change?
+   2. Does the variance allele frequency (p) change?
+5. Are these observations in line with your expectations?
+6. Would you expect to observe a similar behavior of the mean and variance of the allele frequency if we reduce the fitness of genotype AB and BB to 0.9? If not, what would change?
+7. What are the underlying mechanisms of these observations?
 
