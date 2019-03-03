@@ -4,7 +4,7 @@
 The timing and location of domestication of the ancestors to the present-day domesticated horses remains unknown. The earliest evidence of horse domestication, based on archaeological research, is from a 5,000 year old site named Botai in northern Kazakhstan. Besides the main types of horse breeds living today (e.g. Arabian and Shetland) only a single wild horse lineage is extant, the Przewalski horses. This lineage almost went extinct in the 19th century. Such strong bottlenecks result in large amount of genetic drift due to the decreased population size as demonstrated in exercise 1. 
 
 We will use 20 horse genomes for todays exercise:
-- Two ancient horses from Siberia, Russia. These horses represent an extinct horse lineage.
+- Two ancient horses from Siberia, Russia. These horses represent an extinct wild horse lineage.
   - The 5,000 years old `AncientRussia1`
   - The 42,000 years old `AncientRussia2`
 - 7 Przewalski horses (prefix: `Prze`). The only extant wild horse lineage.
