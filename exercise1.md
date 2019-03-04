@@ -32,7 +32,16 @@ This should open your favorite browser with driftR running locally.
 
 
 ### Alternative availability (on the student server) ###
-If it is not possible to install driftR locally, a version is made available on the server. This might be slower than running the software locally. X11 forwarding is required, when you access the student server. Open `R` and type the following:
+If it is not possible to install driftR locally, a version is made available on the server. This might be slower than running the software locally. X11 forwarding is required, when you access the student server. 
+
+First log in to the server with X11 forwarding
+```bash
+	ssh -X ABC123@ssh-bio-stud.science.ku.dk
+	ssh -X popgen-bio
+```
+
+
+Then open `R` and type the following:
 
 ```R
 	.libPaths( c( "~/groupdirs/SCIENCE-BIO-Popgen_Course/exercises/horseDomestication_R/R/3.4", .libPaths() ) )
