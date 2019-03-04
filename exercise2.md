@@ -31,7 +31,7 @@ The objective of this exercise is to familiarize yourself with two methods, name
 
 ## Copy data ##
 
-Before running any analyses, you'll have to copy the data firstto your home directory. Use the following commands to copy the data to your directory. 
+Before running any analyses, you'll have to copy the data to your home directory. Use the following commands to copy the data to your directory. 
 
 ```bash
 	ssh -X ABC123@ssh-bio-stud.science.ku.dk
