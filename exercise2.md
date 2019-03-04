@@ -50,9 +50,9 @@ You will compute all pairwise permutations of the horses analyzed in this study 
 ```bash
 	# This will generated all the f3-outgroup permutations of the horses analyzed in this exercise
 	# This script will take around 5 minutes.
-	bash scripts/run_f3.sh 
+	bash scripts/f3_run.sh 
 	# This produces a heatmap of all the pairwise f3-outgroup statistics
-	Rscript scripts/plot.f3.simple.R results/f3.results labels/f3.order
+	Rscript scripts/plot.f3.R results/f3.results labels/f3.order
 ```
 
 ### Questions ###
