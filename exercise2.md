@@ -1,9 +1,13 @@
 # Exercise 2 #
 
 ## Ancient DNA and horse domestication ##
-The timing and location of domestication of the ancestors to the present-day domesticated horses remains unknown. The earliest evidence of horse domestication, based on archaeological research, is from a 5,000 year old site named Botai in northern Kazakhstan. Besides the main types of horse breeds living today (e.g. Arabian and Shetland) only a single wild horse lineage is extant, the Przewalski horses. This lineage almost went extinct in the 19th century. Such strong bottlenecks result in large amount of genetic drift due to the decreased population size as demonstrated in exercise 1. 
+The timing and location of horse domestication of the ancestors to the present-day domesticated breeds remains unknown. The earliest evidence of horse domestication, based on archaeological research, is from a 5,000 year old excavation site named Botai in northern Kazakhstan. This populations is the best candidate for a horse domestication center. 
 
-We will use 20 horse genomes for todays exercise:
+Today, humans have selected for several hundred types of horse breeds (e.g. Arabian, Shetland, etc). Besides these domesticated breeds only a single wild lineage remains extant, the Przewalski horses. This lineage almost went extinct in the 19th century due to extreme hunting. Such strong bottlenecks result in large amount of genetic drift due to the decreased population size as demonstrated in exercise 1. 
+
+Assuming that horse domestication took place only once, our initial hypothesis was that the 5,000 years old domesticated Botai horses were the ancestors of all present-day domesticated horses, or at least shared most recent common ancestry with this lineage. In todays exercise, we will investigate if this hypothesis holds by applying two commonly used methods to reconstruct the genetic relationship of 20 ancient and modern horse genomes. 
+
+Below is a summary of the horses, we will use to test the above-mentioned hypthesis:
 - Two ancient horses from Siberia, Russia. These horses represent an extinct wild horse lineage.
   - The 5,000 years old `AncientRussia1`
   - The 42,000 years old `AncientRussia2`
@@ -20,15 +24,13 @@ We will use 20 horse genomes for todays exercise:
   
 For the first analysis, we will also use the `donkey` as an outgroup. 
 
-The ancient siberian horses (`AncientRussia1,AncientRussia2`) are estimated to split of from the branch leading to Przewalski and present-day domesticated horses around 160,000 years ago. The Przewalski lineage and the lineage leading to the present-day domesticated horses split around 45,000 years ago.
-
-Assuming that horse domestication took place only once, our initial hypothesis was that the 5,000 years old domesticated Botai horses were the ancestors of all present-day domesticated horses, or at least shared most recent common ancestry with this lineage. In todays exercise, we will investigate if this hypothesis holds by applying two commonly used methods to reconstruct the genetic relationship of the 20 genomes described above.
+The extinct ancient siberian horse lineage (`AncientRussia1,AncientRussia2`) is estimated to split of from the branch leading to Przewalski and present-day domesticated horses around 160,000 years ago. The Przewalski lineage and the lineage leading to the present-day domesticated horses split around 45,000 years ago.
 
 ## Objective ##
-The objective of this exercise is to familiarize yourself with two methods, namely f3-outgroup and Treemix. Both these methods are based on genetic drift. Based on the results of these methods, we will investigate if the Botai horses were the ancestors of present-day domesticated horses.
+The objective of this exercise is to familiarize yourself with two methods, namely f3-outgroup statistic and Treemix. Both these methods are based on genetic drift. We will investigate if the botai horses were the ancestors of present-day domesticated horses based on the results of the f3-outgroup statistic and Treemix.
 
-## f3-outgroup ##
-The first method we will apply to the data is named f3-outgroup. This method uses an outgroup (Donkey) to recover the amount of shared genetic drift between two horses/populations. The statistic measures the branch length from the outgroup and split of the two populations. It is defined as the product of allele frequency differences between C-A and C-B [highlighted here in red](https://gaworkshop.readthedocs.io/en/latest/_images/f3-tree.png). 
+## f3-outgroup statistic ##
+The first method we will apply to the data is named f3-outgroup statistic. This method uses an outgroup (Donkey) to recover the amount of shared genetic drift between two horses/populations. The statistic measures the branch length from the outgroup and split of the two populations. It is defined as the product of allele frequency differences between C-A and C-B [highlighted here in red](https://gaworkshop.readthedocs.io/en/latest/_images/f3-tree.png). 
 
 You will compute all pairwise permutations of the horses analyzed in this study and plot it as a heatmap. The color brightness indicates the amount of shared genetic drfit between two horses. These results can give us the first indication whether the domesticated Botai horses shared more genetic drift with present-day domesticated horses.
 
@@ -42,7 +44,7 @@ You will compute all pairwise permutations of the horses analyzed in this study 
 
 ### Questions ###
 
-1. Why are the f3-outgroup values so high for all pairs of Przewalski horses.
+1. Why are the f3-outgroup statistic values so high for all pairs of Przewalski horses.
 2. What are the main two groups of horses that share more genetic drift?
    1. Are these groups of horses expected given our expectation?
 3. What Horses share the most drift with Botai horses?
