@@ -29,20 +29,33 @@ The extinct ancient siberian horse lineage (`AncientRussia1,AncientRussia2`) is 
 ## Objective ##
 The objective of this exercise is to familiarize yourself with two methods, namely f3-outgroup statistic and Treemix. Both these methods are based on genetic drift. We will investigate if the botai horses were the ancestors of present-day domesticated horses based on the results of the f3-outgroup statistic and Treemix.
 
+## Copy data ##
+
+Before running any analyses, you'll have to copy the data firstto your home directory. Use the following commands to copy the data to your directory. 
+
+```bash
+	ssh -X ABC123@ssh-bio-stud.science.ku.dk
+	ssh -X popgen-bio
+	mkdir -p exercises
+	cd exercises
+	cp -r ~/groupdirs/SCIENCE-BIO-Popgen_Course/exercises/horseDomestication .
+	cd horseDomestication
+```
+
 ## f3-outgroup statistic ##
 The first method we will apply to the data is named f3-outgroup statistic. This method uses an outgroup (Donkey) to recover the amount of shared genetic drift between two horses/populations. The statistic measures the branch length from the outgroup and split of the two populations. It is defined as the product of allele frequency differences between C-A and C-B [highlighted here in red](https://gaworkshop.readthedocs.io/en/latest/_images/f3-tree.png). 
 
 You will compute all pairwise permutations of the horses analyzed in this study and plot it as a heatmap. The color brightness indicates the amount of shared genetic drfit between two horses. These results can give us the first indication whether the domesticated Botai horses shared more genetic drift with present-day domesticated horses.
 
 ```bash
-	cd XXX
-	# This will generated all the pairwise permutations of the horses analyzed in this exercise
+	# This will generated all the f3-outgroup permutations of the horses analyzed in this exercise
 	bash scripts/run_f3.sh
 	# This produces a heatmap of all the pairwise f3-outgroup statistics
 	Rscript scripts/plot.f3.simple.R results/f3.results labels/f3.order
 ```
 
 ### Questions ###
+Based on the heatmap plot (`results/f3.results.pdf`) answer the following questions:
 
 1. Why are the f3-outgroup statistics so high for all pairs of Przewalski horses.
 2. What are the main two groups of horses that share more genetic drift?
