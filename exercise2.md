@@ -73,8 +73,7 @@ Every populations in this exercise consist of a single individual. Vertical line
 
 
 ```bash
-	# This script will run a two commands. The first will transform the data into the required format for Treemix. The second command is the actual treemix command.
-	# This script will take around 5 minutes.
+	# This script will execute the treemix command. It takes about 5 minutes
 	bash scripts/treemix_run.sh
 	# Next we plot the treemix results. 
 	Rscript scripts/plot.treemix.R results/treemix
