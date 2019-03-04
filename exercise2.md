@@ -92,4 +92,4 @@ Based on the treemix plot saved in `results/treemix.pdf` answer the following qu
 5. Based on this analysis and the f3-outgroup analyses, what group of horses are likely the descendants of Botai horses?
 
 ## Extra material ##
-These two analyses were a fundamental part of a paper published last year in [Science](http://science.sciencemag.org/content/360/6384/111).
+These two analyses were part of a paper published last year in [Science](http://science.sciencemag.org/content/360/6384/111).
