@@ -35,7 +35,7 @@ This should open your favorite browser with driftR running locally.
 If it is not possible to install driftR locally, a version is made available on the server. This might be slower than running the software locally. X11 forwarding is required, when you access the student server. Open `R` and type the following:
 
 ```R
-	.libpaths( c( "~/groupdirs/SCIENCE-BIO-Popgen_Course/exercises/horseDomestication_R/R/3.4", .libpaths() ) )
+	.libPaths( c( "~/groupdirs/SCIENCE-BIO-Popgen_Course/exercises/horseDomestication_R/R/3.4", .libPaths() ) )
 	require(shiny)
 	pathTodriftR <- "~/groupdirs/SCIENCE-BIO-Popgen_Course/exercises/horseDomestication/driftR"
 	runApp(appDir=pathTodriftR)
