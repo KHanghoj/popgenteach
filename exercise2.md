@@ -44,10 +44,10 @@ You will compute all pairwise permutations of the horses analyzed in this study 
 
 ### Questions ###
 
-1. Why are the f3-outgroup statistic values so high for all pairs of Przewalski horses.
+1. Why are the f3-outgroup statistics so high for all pairs of Przewalski horses.
 2. What are the main two groups of horses that share more genetic drift?
    1. Are these groups of horses expected given our expectation?
-3. What Horses share the most drift with Botai horses?
+3. What group of horses shares the most drift with Botai horses?
 4. Does these results indicate that Botai horses are the ancestors of the domesticated horses we know today?
    1. If not, what does the results then indicate?
 
