@@ -45,11 +45,12 @@ Before running any analyses, you'll have to copy the data firstto your home dire
 ## f3-outgroup statistic ##
 The first method we will apply to the data is named f3-outgroup statistic. This method uses an outgroup (Donkey) to recover the amount of shared genetic drift between two horses/populations. The statistic measures the branch length from the outgroup and split of the two populations. It is defined as the product of allele frequency differences between C-A and C-B [highlighted here in red](https://gaworkshop.readthedocs.io/en/latest/_images/f3-tree.png). 
 
-You will compute all pairwise permutations of the horses analyzed in this study and plot it as a heatmap. The color brightness indicates the amount of shared genetic drfit between two horses. These results can give us the first indication whether the domesticated Botai horses shared more genetic drift with present-day domesticated horses.
+You will compute all pairwise permutations of the horses analyzed in this study and plot it as a heatmap. The color brightness indicates the amount of shared genetic drfit between two horses. These results can give us the first indication whether the domesticated Botai horses shared more genetic drift with present-day domesticated horses as expected given our initial hypothesis.
 
 ```bash
 	# This will generated all the f3-outgroup permutations of the horses analyzed in this exercise
-	bash scripts/run_f3.sh
+	# This script will take around 5 minutes.
+	bash scripts/run_f3.sh 
 	# This produces a heatmap of all the pairwise f3-outgroup statistics
 	Rscript scripts/plot.f3.simple.R results/f3.results labels/f3.order
 ```
@@ -59,7 +60,7 @@ Based on the heatmap plot (`results/f3.results.pdf`) answer the following questi
 
 1. Why are the f3-outgroup statistics so high for all pairs of Przewalski horses.
 2. What are the main two groups of horses that share more genetic drift?
-   1. Are these groups of horses expected given our expectation?
+   1. Are these clusters of horses expected given our initial hypthesis?
 3. What group of horses shares the most drift with Botai horses?
 4. Does these results indicate that Botai horses are the ancestors of the domesticated horses we know today?
    1. If not, what does the results then indicate?
@@ -73,6 +74,7 @@ Every populations in this exercise consist of a single individual. Vertical line
 
 ```bash
 	# This script will run a two commands. The first will transform the data into the required format for Treemix. The second command is the actual treemix command.
+	# This script will take around 5 minutes.
 	bash scripts/treemix_run.sh
 	# Next we plot the treemix results. 
 	Rscript scripts/plot.treemix.R results/treemix

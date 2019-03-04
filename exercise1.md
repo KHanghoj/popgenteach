@@ -16,9 +16,11 @@ Run the following command to download driftR to your local machine:
 Open `R` and run the following code:
 
 ```R
-	ipak <- function(pkg){new.pkg <- pkg[!(pkg %in% installed.packages()[, "Package"])]
-		if (length(new.pkg))
+	ipak <- function(pkg){
+		new.pkg <- pkg[!(pkg %in% installed.packages()[, "Package"])]
+		if (length(new.pkg)){
 			install.packages(new.pkg, dependencies = TRUE)
+		}
 		sapply(pkg, require, character.only = TRUE)
 	}
 	ipak(c("shiny", "viridis", "reshape", "ggplot2", "plyr", "magrittr"))
@@ -30,13 +32,15 @@ This should open your favorite browser with driftR running locally.
 
 
 ### Alternative availability (on the student server) ###
-If it is not possible to install driftR locally, a version is made available on the server. X11 forwarding is required, when you access the student server. Open `R` and type the following:
+If it is not possible to install driftR locally, a version is made available on the server. This might be slower than running the software locally. X11 forwarding is required, when you access the student server. Open `R` and type the following:
 
 ```R
-	require(shiny)
-	pathTodriftR <- "/path/to/driftR"
+	require(shiny, lib.loc="~/groupdirs/SCIENCE-BIO-Popgen_Course/exercises/horseDomestication/R/3.4")
+	pathTodriftR <- "~/groupdirs/SCIENCE-BIO-Popgen_Course/exercises/horseDomestication/driftR"
 	runApp(appDir=pathTodriftR)
 ```
+
+This should open the browser on the student server through X11 with driftR running.
 
 ### Starting parameters ###
 This software has a series of parameters to tune. Set the following parameters prior to running driftR:
