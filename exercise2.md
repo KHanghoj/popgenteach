@@ -69,7 +69,7 @@ Based on the heatmap plot (`results/f3.results.pdf`) answer the following questi
 ## Treemix ##
 The second method is named `treemix` and is used to reconstruct the genetic relationship between populations based on genetic drift. In this part you will generate an evolutionary tree using `treemix` of the same subset of horses as used in the previous analyses with the exception of the outgroup. Instead of using the donkey as outgroup, we use `AncientRussia1` and `AncientRussia2` in this analysis. These two samples represent a wild horse lineage that went extinct around 5,000 years ago and is suitable as outgroup. 
 
-Every populations in this exercise consist of a single individual. Vertical lines do not have any biological meaning. 
+Every populations in this exercise consists of a single individual. Vertical lines do not have any biological meaning. 
 
 
 ```bash
