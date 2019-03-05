@@ -57,7 +57,7 @@ Number of populations can be seen as number of simulations.
 This way we reduce the mechanisms (e.g. selection, mutation, migration) that can impact allele frequency changes to genetic drift, and how the latter behaves with different population sizes.
  
 ## Objective ##
-The objective of this exercise is to familiarize yourself with genetic drift, and explore the effect of populations size on genetic drift.
+The objective of this exercise is to familiarize yourself with genetic drift, and explore the effect of population size changes on genetic drift.
 
 ## Questions ##
 When these starting parameters are all set, answer the following questions.
