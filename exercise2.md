@@ -24,7 +24,7 @@ Below is a summary of the horses, we will use to test the above-mentioned hypthe
   
 For the first analysis, we will also use the `donkey` as an outgroup. 
 
-The extinct ancient siberian horse lineage (`AncientRussia1,AncientRussia2`) is estimated to split of from the branch leading to Przewalski and present-day domesticated horses around 160,000 years ago. The Przewalski lineage and the lineage leading to the present-day domesticated horses split around 45,000 years ago.
+The extinct ancient siberian horse lineage (`AncientRussia1,AncientRussia2`) is estimated to split of from the branch leading to Przewalski and present-day domesticated horses around 150,000 years ago. The Przewalski lineage and the lineage leading to the present-day domesticated horses split around 45,000 years ago.
 
 ## Objective ##
 The objective of this exercise is to familiarize yourself with two methods, namely f3-outgroup statistic and Treemix. Both these methods are based on genetic drift. We will investigate if the botai horses were the ancestors of present-day domesticated horses based on the results of the f3-outgroup statistic and Treemix.

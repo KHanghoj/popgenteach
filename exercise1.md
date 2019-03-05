@@ -62,6 +62,8 @@ This software has a series of parameters to tune. Set the following parameters p
 - Number of populations: 10
 - Number of generations: 100
 	 
+Number of populations can be seen as number of simulations. 
+ 
 This way we reduce the mechanisms (e.g. selection, mutation, migration) that can impact allele frequency changes to genetic drift, and how the latter behaves with different population sizes.
  
 ## Questions ##
