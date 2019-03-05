@@ -37,8 +37,6 @@ Then open `R` and type the following:
 ```R
 	.libPaths( c( "~/groupdirs/SCIENCE-BIO-Popgen_Course/exercises/horseDomestication_R/R/3.4", .libPaths() ) )
 	require(shiny)
-	# pathTodriftR <- "~/groupdirs/SCIENCE-BIO-Popgen_Course/exercises/horseDomestication/driftR"
-	# runApp(appDir=pathTodriftR)
 	runGitHub(username="cjbattey", repo="driftR")
 ```
 
