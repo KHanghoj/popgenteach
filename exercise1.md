@@ -3,15 +3,7 @@
 ## genetic drift ##
 In this exercise, we will explore the effect of genetic drift on allele frequencies using simulations. The web-based software we will use is named `driftR`. It simulates change in allele frequencies for multiple popoulations using the island model (Wright 1931).
 
-## Objective ##
-The objective of this exercise is to familiarize yourself with genetic drift, and explore the effect of populations size on genetic drift.
-
 ## Installing driftR locally ##
-
-Run the following command to download driftR to your local machine:
-```bash 
-	git clone https://github.com/cjbattey/driftR.git
-```
 
 Open `R` and run the following code:
 
@@ -24,8 +16,7 @@ Open `R` and run the following code:
 		sapply(pkg, require, character.only = TRUE)
 	}
 	ipak(c("shiny", "viridis", "reshape", "ggplot2", "plyr", "magrittr"))
-	pathTodriftR <- "driftR"
-	runApp(appDir=pathTodriftR)
+	runGitHub(username="cjbattey", repo="driftR")
 ```
 
 This should open your favorite browser with driftR running locally. 
@@ -46,8 +37,9 @@ Then open `R` and type the following:
 ```R
 	.libPaths( c( "~/groupdirs/SCIENCE-BIO-Popgen_Course/exercises/horseDomestication_R/R/3.4", .libPaths() ) )
 	require(shiny)
-	pathTodriftR <- "~/groupdirs/SCIENCE-BIO-Popgen_Course/exercises/horseDomestication/driftR"
-	runApp(appDir=pathTodriftR)
+	# pathTodriftR <- "~/groupdirs/SCIENCE-BIO-Popgen_Course/exercises/horseDomestication/driftR"
+	# runApp(appDir=pathTodriftR)
+	runGitHub(username="cjbattey", repo="driftR")
 ```
 
 This should open the browser on the student server through X11 with driftR running.
@@ -66,6 +58,9 @@ Number of populations can be seen as number of simulations.
  
 This way we reduce the mechanisms (e.g. selection, mutation, migration) that can impact allele frequency changes to genetic drift, and how the latter behaves with different population sizes.
  
+## Objective ##
+The objective of this exercise is to familiarize yourself with genetic drift, and explore the effect of populations size on genetic drift.
+
 ## Questions ##
 When these starting parameters are all set, answer the following questions.
 
