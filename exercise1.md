@@ -5,7 +5,7 @@ In this exercise, we will explore the effect of genetic drift on allele frequenc
 
 ## Installing driftR locally ##
 
-Open `R` and run the following code:
+Open `R` and run the following code (should take less than 3 minutes)
 
 ```R
 	ipak <- function(pkg){
