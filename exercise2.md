@@ -55,6 +55,8 @@ You will compute all pairwise permutations of the horses analyzed in this study 
 	Rscript scripts/plot.f3.R results/f3.results labels/f3.order
 ```
 
+If the server is slow, the heatmap plot can be found [here](https://github.com/KHanghoj/popgenteach/blob/master/f3.results.pdf)
+
 ### Questions ###
 Based on the heatmap plot (`results/f3.results.pdf`) answer the following questions:
 
@@ -78,6 +80,8 @@ Every population in this exercise consists of a single individual. Vertical line
 	# Next we plot the treemix results. 
 	Rscript scripts/plot.treemix.R results/treemix
 ```
+If the server is slow, the treemix plot can be found [here](https://github.com/KHanghoj/popgenteach/blob/master/treemix.pdf)
+
 
 ### Questions ###
 Based on the treemix plot saved in `results/treemix.pdf` answer the following questions.
