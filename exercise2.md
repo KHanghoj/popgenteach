@@ -60,6 +60,8 @@ If the server is slow, the heatmap plot can be found [here](https://github.com/K
 ### Questions ###
 Based on the heatmap plot (`results/f3.results.pdf`) answer the following questions:
 
+1. Describe the figure
+2. Two horses share least genetic drift with all other horses. Which?
 1. Why are the f3-outgroup statistics so high for all pairs of Przewalski horses.
 2. What are the main two groups of horses that share more genetic drift?
    1. Are these clusters of horses expected given our initial hypthesis?
