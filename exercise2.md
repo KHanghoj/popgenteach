@@ -87,7 +87,9 @@ If the server is slow, the treemix plot can be found [here](https://github.com/K
 
 ### Questions ###
 Based on the treemix plot saved in `results/treemix.pdf` answer the following questions.
-	
+
+1. Describe the figure
+1. What sample has the most terminal drift?
 1. Define the two largest monophyletic groups, entailing all samples besides the outgroup (`AncientRussia1,AncientRussia2`). 
    1. What samples are present in each group?
 2. Is the placement of the Botai horses expected if they are the ancestors of the present day domesticated horses. Elaborate your answer.
