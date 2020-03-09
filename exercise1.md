@@ -73,4 +73,4 @@ When these starting parameters are all set, answer the following questions.
    2. Does the variance of the allele frequency (p) change?
 5. Are these observations in line with your expectations?
 6. Would you expect to observe a similar behavior of the mean and variance of the allele frequency, if we reduce the fitness of genotype AB and BB to 0.9? If not, what would change?
-7. Given our previous exercise on heteroygosity and drift, how would you ensure that the heteroygosity per subgroup (Hs) is unlikely to become zero?
+7. Given our previous exercise on heteroygosity and drift, how would you ensure that the heteroygosity per subgroup (Hs) is unlikely to become zero? hint: tick the box hs to trace its trajectory.
