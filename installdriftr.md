@@ -1,4 +1,4 @@
-Open `R` on your local machine an copy the following code:
+Open `R` or `Rstudio` on your local machine an copy the following code:
 
 ```R
 ipak <- function(pkg){
