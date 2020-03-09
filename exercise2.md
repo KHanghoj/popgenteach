@@ -57,6 +57,7 @@ You will compute all pairwise permutations of the horses analyzed in this study 
 	Rscript scripts/plot.f3.R results/f3.results labels/f3.order
 ```
 
+
 If the server is slow, the heatmap plot can be found [here](https://github.com/KHanghoj/popgenteach/blob/master/f3.results.pdf)
 
 ### Questions ###
