@@ -23,11 +23,7 @@ This should open your favorite browser with driftR running locally.
 
 
 ### Alternative availability ###
-If it is not possible to install driftR locally, a version is made available on the server. Please try to install it on your local machine first as the server does not have capacity for all users.
-
-```bash
-http://popgen.dk:3838/krishang/driftr/driftR/
-```
+If it is not possible to install driftR locally, a version is made available on the server. Please try to install it on your local machine first as the server does not have capacity for all users: [link](http://popgen.dk:3838/krishang/driftr/driftR/)
 
 ### Starting parameters ###
 This software has a series of parameters to tune. Set the following parameters prior to running driftR:
