@@ -22,25 +22,12 @@ Open `R` or `Rstudio` and run the following code (should take less than 3 minute
 This should open your favorite browser with driftR running locally. 
 
 
-### Alternative availability (on the student server) ###
-If it is not possible to install driftR locally, a version is made available on the server. This might be slower than running the software locally. X11 forwarding is required, when you access the student server. 
+### Alternative availability ###
+If it is not possible to install driftR locally, a version is made available on the server. Please try to install it on your local machine first as the server does not have capacity for all users.
 
-First log in to the server with X11 forwarding
 ```bash
-	ssh -X ABC123@ssh-bio-stud.science.ku.dk
-	ssh -X popgen-bio
+http://popgen.dk:3838/krishang/driftr/driftR/
 ```
-
-
-Then open `R` and type the following:
-
-```R
-	.libPaths( c( "~/groupdirs/SCIENCE-BIO-Popgen_Course/exercises/horseDomestication_R/R/3.4", .libPaths() ) )
-	require(shiny)
-	runGitHub(username="cjbattey", repo="driftR")
-```
-
-This should open the browser on the student server through X11 with driftR running.
 
 ### Starting parameters ###
 This software has a series of parameters to tune. Set the following parameters prior to running driftR:
