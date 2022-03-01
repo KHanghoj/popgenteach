@@ -47,13 +47,13 @@ When these starting parameters are all set, answer the following questions.
 
 
 1. Press `Run Simulation` and describe what you see
-   1. What is the on the axes?
-   2. What does every line represent?
+   1. What is the on the axes and what is every line?
 2. How does this change, if we set the populations size to 1000
 3. How does this change, if we set the populations size to 10000
 4. Run 20 replicates of the last three runs (population size: 100, 1000, 10000)
    1. Does the mean of the allele frequency (p) change?
    2. Does the variance of the allele frequency (p) change?
 5. Are these observations in line with your expectations?
-6. Would you expect to observe a similar behavior of the mean and variance of the allele frequency, if we reduce the fitness of genotype AB and BB to 0.9? If not, what would change?
+6. Try to reduce the fitness of genotype AB and BB to 0.9.
+    1.  Would we expect the same behavior for the mean and variance?
 7. Given our previous exercise on heteroygosity and drift, how would you ensure that the heteroygosity per subgroup (Hs) is unlikely to become zero? hint: tick the box hs to trace its trajectory.
