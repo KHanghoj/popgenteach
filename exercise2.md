@@ -59,6 +59,7 @@ You will compute all pairwise permutations of the horses analyzed in this study 
 
 
 If the server is slow, the heatmap plot can be found [here](https://github.com/KHanghoj/popgenteach/blob/master/f3.results.pdf)
+If the server is slow, the heatmap plot can be found [here](f3.results.pdf)
 
 ### Questions ###
 Based on the heatmap plot (`results/f3.results.pdf`) answer the following questions:
