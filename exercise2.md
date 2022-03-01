@@ -1,6 +1,6 @@
 # Exercise 2 #
 
-#### Please run the analysis in groups of two
+#### Please run the analysis in groups of two or three
 
 ## Ancient DNA and horse domestication ##
 The timing and location of horse domestication of the ancestors to the present-day domesticated breeds remains unknown. The earliest evidence of horse domestication, based on archaeological research, is from a 5,000 year old excavation site named Botai in northern Kazakhstan. This populations is the best candidate for a horse domestication center. 
