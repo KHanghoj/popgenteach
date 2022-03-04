@@ -58,19 +58,18 @@ You will compute all pairwise permutations of the horses analyzed in this study 
 ```
 
 
-If the server is slow, the heatmap plot can be found [here](f3.results.pdf)
+[If the server is slow, the heatmap plot can be found here](f3.results.pdf)
 
 ### Questions ###
 Based on the heatmap plot (`results/f3.results.pdf`) answer the following questions:
 
-1. Describe the figure
 2. Two horses share least genetic drift with all other horses. Which?
-1. Why are the f3-outgroup statistics so high for all pairs of Przewalski horses.
+1. Why are the f3-outgroup statistics so high for all pairs of Przewalski horses (hint: Population History).
 2. What are the main two groups of horses that share more genetic drift?
-   1. Are these clusters of horses expected given our initial hypthesis?
-3. What group of horses shares the most drift with Botai horses?
+    1. Domesticated and Botai?
+    1. Domesticated and Przewalski?
+    1. Botai and Przewalski?
 4. Does these results indicate that Botai horses are the ancestors of the domesticated horses we know today?
-   1. If not, what does the results then indicate?
 
 
 ## Treemix ##
@@ -85,20 +84,16 @@ Every population in this exercise consists of a single individual. Vertical line
 	# Next we plot the treemix results. 
 	Rscript scripts/plot.treemix.R results/treemix
 ```
-If the server is slow, the treemix plot can be found [here](treemix.pdf)
+[If the server is slow, the treemix plot can be found here](treemix.pdf)
 
 
 ### Questions ###
 Based on the treemix plot saved in `results/treemix.pdf` answer the following questions.
 
 1. Describe the figure
-1. What sample has the most terminal drift?
 1. Define the two largest monophyletic groups, entailing all samples besides the outgroup (`AncientRussia1,AncientRussia2`). 
-   1. What samples are present in each group?
-2. Is the placement of the Botai horses expected if they are the ancestors of the present day domesticated horses. Elaborate your answer.
+2. Is the placement of the Botai horses expected if they are the ancestors of the present day domesticated horses? 
 3. What samples shares the most genetic drift the botai horses?
-4. Is there a difference between the length of the terminal branches in the two major monophyletic groups?
-   1. If yes, explain how and why they differ?
 5. Based on this analysis and the f3-outgroup analyses, what group of horses are likely the descendants of Botai horses?
 
 ## Extra material ##
