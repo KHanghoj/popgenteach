@@ -48,7 +48,6 @@ When these starting parameters are all set, answer the following questions.
 
 1. Press `Run Simulation` and describe what you see
    1. What is the on the axes and what is every line?
-2. How does this change, if we set the populations size to 1000
 3. How does this change, if we set the populations size to 10000
 4. Run 20 replicates of the last three runs (population size: 1000, 10000)
    1. Does the mean of the allele frequency (p) change?
