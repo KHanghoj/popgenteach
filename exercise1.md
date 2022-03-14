@@ -1,7 +1,7 @@
 # Exercise 1 #
 
 ## genetic drift ##
-In this exercise, we will explore the effect of genetic drift on allele frequencies using simulations. The web-based software we will use is named `driftR`. It simulates change in allele frequencies for multiple popoulations using the island model (Wright 1931).
+In this exercise, we will explore the effect of genetic drift on allele frequencies using simulations. The web software we will use is named `driftR`. It simulates change in allele frequencies for multiple popoulations using the island model (Wright 1931).
 
 ## Installing driftR locally ##
 
@@ -22,7 +22,7 @@ Open `R` or `Rstudio` and run the following code.
 This should open your favorite browser with driftR running locally. 
 
 
-### Alternative availability ###
+### Alternative availability (in groups of two) ###
 If it is not possible to install driftR locally, a version is made available on the server. Please try to install it on your local machine first as the server does not have capacity for all users: [link](http://popgen.dk:3838/krishang/driftr/driftR/)
 
 ### Starting parameters ###
@@ -46,13 +46,10 @@ The objective of this exercise is to familiarize yourself with genetic drift, an
 When these starting parameters are all set, answer the following questions.
 
 
-1. Press `Run Simulation` and describe what you see
-   1. What is the on the axes and what is every line?
+1. Press `Run Simulation`. What is the on the axes and what is every line?
 3. How does this change, if we set the populations size to 10000
-4. Run 20 replicates of the last three runs (population size: 100, 10000)
+4. Run 20 replicates of the last three runs (population size: 100, 5000)
    1. Does the mean of the allele frequency (p) change?
    2. Does the variance of the allele frequency (p) change?
 5. Are these observations in line with your expectations?
-6. Try to reduce the fitness of genotype AB and BB to 0.9.
-    1.  Would we expect the same behavior for the mean and variance?
 7. Given our previous exercise on heteroygosity and drift, how would you ensure that the heteroygosity per subgroup (Hs) is unlikely to become zero? hint: tick the box hs to trace its trajectory.
